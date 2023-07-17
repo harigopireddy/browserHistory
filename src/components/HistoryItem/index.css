@@ -1,0 +1,72 @@
+.hi-con-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.history-time {
+  color: #64748b;
+  font-weight: 700;
+}
+
+.hi-con-3 {
+  display: flex;
+  align-items: center;
+  margin: -20px 0 0;
+}
+
+.history-domain-logo {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.hi-con-4 {
+  margin-top: 10px;
+}
+
+.history-title {
+  font-weight: 700;
+  color: #475569;
+}
+
+.history-domain-url {
+  margin-top: -10px;
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.history-del-btn {
+  border: 0;
+  background: none;
+  align-self: center;
+  margin-bottom: -2.6pc;
+}
+
+@media (min-width: 768px) {
+  .hi-con-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hi-con-3 {
+    margin: 5px 0 0 30px;
+  }
+
+  .hi-con-4 {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .history-domain-url {
+    margin: 0 0 0 10px;
+  }
+
+  .history-del-btn {
+    margin-bottom: 0;
+  }
+}
